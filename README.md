@@ -4,7 +4,7 @@ import pandas as p
 import numpy as np
 import matplotlib.pyplot as pl
 import seaborn as sns
-
+//
 # Load data
 df = pd.read_csv("C:\\Users\\sraju\\OneDrive\\Documents\\50000 HRA Records.csv")
 df.columns = df.columns.str.strip()
