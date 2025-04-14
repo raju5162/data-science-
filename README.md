@@ -2,7 +2,7 @@ data-science project
 analysis of dataset
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as pl
 import seaborn as sns
 
 # Load data
