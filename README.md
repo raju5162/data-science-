@@ -44,7 +44,7 @@ plt.title("Attrition by Department")
 plt.xticks(rotation=45)
 plt.show()
 
-# 4. Job Satisfaction vs Attrition (fixed)
+# 4. Job Satisfaction vs Attrition fixed
 sns.boxplot(x='Attrition', y='JobSatisfaction', hue='Attrition', data=df, palette='Set2', legend=False)
 plt.title("Job Satisfaction vs Attrition")
 plt.show()
