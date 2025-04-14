@@ -78,7 +78,7 @@ plt.show()
 
 plt.figure()
 sns.scatterplot(x='TotalWorkingYears', y='YearsAtCompany', hue='Attrition', data=df, palette='coolwarm')
-plt.title("Total Working Years vs Years at Company")
+plt.title("Total Working Year vs Years at Company")
 plt.show()
 
 # 9. HourlyRate vs Department
