@@ -77,7 +77,7 @@ plt.title("Age vs Monthly Income by Attrition")
 plt.show()
 
 plt.figure()
-sns.scatterplot(x='TotalWorkingYears', y='YearsAtCompany', hue='Attrition', data=df, palette='coolwarm')
+sns.scatterplot(x='TotalWorkingYears', y='YearsAtCompanys', hue='Attrition', data=df, palette='coolwarm')
 plt.title("Total Working Years vs Years at Company")
 plt.show()
 
